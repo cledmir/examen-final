@@ -3,7 +3,7 @@ services:
   inventory-service:
     image: inventory-service
     ports:
-      - "8080:8080"
+      - "8084:8084"
     networks:
       - prueba-network
     restart: on-failure
