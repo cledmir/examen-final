@@ -1,6 +1,6 @@
 version: "3"
 services:
-  social-service:
+  inventory-service:
     image: inventory-service
     ports:
       - "8084:8084"
